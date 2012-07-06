@@ -1,0 +1,13 @@
+--- a/src/jpgraph_date.php
++++ b/src/jpgraph_date.php
+@@ -41,7 +41,9 @@ define('DAYADJ_WEEK',1);
+ define('DAYADJ_7',1);
+ 
+ define('SECPERYEAR',31536000);
+-define('SECPERDAY',86400);
++if(!defined('SECPERDAY')){
++	define('SECPERDAY',86400);
++}
+ define('SECPERHOUR',3600);
+ define('SECPERMIN',60);
+ 

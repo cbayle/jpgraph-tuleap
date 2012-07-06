@@ -1,0 +1,13 @@
+--- a/src/jpgraph_errhandler.inc.php
++++ b/src/jpgraph_errhandler.inc.php
+@@ -188,7 +188,9 @@ class JpGraphErrObjectImg extends JpGrap
+ 	    // Special case for headers already sent or that the installation doesn't support
+ 	    // the PNG format (which the error icon is encoded in). 
+ 	    // Dont return an image since it can't be displayed
+-	    die($this->iTitle.' '.$aMsg);		
++	    //die($this->iTitle.' '.$aMsg);
++	    throw new Exception ($aMsg);
++	    die();
+ 	}
+ 
+ 	$aMsg = wordwrap($aMsg,55);

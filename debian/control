@@ -1,0 +1,35 @@
+Source: jpgraph-tuleap
+Section: non-free/php
+Priority: optional
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Build-Depends: debhelper (>= 8)
+Standards-Version: 3.9.3
+Homepage: http://www.jpgraph.net/
+
+Package: libphp-jpgraph-tuleap
+Architecture: all
+Depends: ${misc:Depends}, libapache2-mod-php5 | php5 | php5-cgi, php5-gd, fonts-liberation | ttf-liberation | ttf-mscorefonts-installer
+Conflicts: libphp-jpgraph
+Description: Object oriented graph library for PHP 
+ JpGraph is an OO class library for PHP 5 (or higher). JpGraph makes it
+ easy to draw both "quick and dirty" graphs with a minimum of code and
+ complex professional graphs which requires a very fine grain control.
+ .
+ JpGraph is equally well suited for both scientific and business type of graphs.
+ .
+ An important feature of the library is that it assigns context sensitive
+ default values for most of the parameters which radically minimizes the
+ learning curve. The features are there when you need it - they don't get
+ in your way when you don't need them!
+
+Package: libphp-jpgraph-tuleap-docs
+Section: non-free/doc
+Architecture: all
+Depends: libphp-jpgraph-tuleap, ${misc:Depends}
+Description: Object oriented graph library for PHP — documentation and examples
+ JpGraph is an OO class library for PHP 5 (or higher). JpGraph makes it
+ easy to draw both "quick and dirty" graphs with a minimum of code and
+ complex professional graphs which requires a very fine grain control.
+ .
+ This package contains documentation and examples for using the JpGraph library.
+

@@ -1,0 +1,37 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: JpGraph
+Disclaimer:
+ The upstream license requires a fee for commercial usage of the library.
+ Thus this package is non-free.
+
+Files: *
+Copyright: 1999-2009 Aditus Consulting
+License: qpl-for-non-commercial-open-source-educational-use
+ JpGraph is released under a dual license. QPL 1.0 (Qt Free License) For
+ non-commercial, open-source or educational use and JpGraph Professional
+ License for commercial use.
+ .
+ On Debian systems, the complete text of the QPL is available in
+ /usr/share/doc/libphp-jpgraph-tuleap/QPL.txt.gz. More explanations
+ about the professional version can be found on
+ http://jpgraph.net/pro/.
+
+Files: debian/*
+Copyright: © 2012 Raphaël Hertzog <raphael@freexian.com>
+License: GPL-2+
+ This is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU General Public
+ License version 2 can be found in the file
+ `/usr/share/common-licenses/GPL-2'.
