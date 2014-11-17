@@ -48,9 +48,9 @@ This package includes the documentation for %{APP_NAME}.
 
 %prep
 %setup -n %{APP_NAME}-%{version}
-%patch1 -p0
-%patch2 -p0
-%patch3 -p0
+%patch1 -p1
+%patch2 -p1
+%patch3 -p1
 ### Change the default TTF_DIR to Red Hat's TTF_DIR.
 %{__perl} -pi.orig -e 's|/usr/X11R6/lib/X11/fonts/truetype/|/usr/share/fonts/|' src/jpgraph.php
 
